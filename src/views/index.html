@@ -4,34 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página Inicial</title>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      body {
-        background-color: #ccc;
-      }
-      .menu {
-        background-color: #fff;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-      }
-    </style>
+    <link rel="stylesheet" href="../../public/styles/global.css" />
   </head>
 
   <body>
     <nav class="menu">
-      <img
-        width="100"
-        src="https://mmv2api.s3.us-east-2.amazonaws.com/products/images/Item85269.jpg.jpg"
-        alt="Logo Site"
-      />
+      <a href="/">
+        <img
+          class="logo"
+          src="https://mmv2api.s3.us-east-2.amazonaws.com/products/images/Item85269.jpg.jpg"
+          alt="Logo Site"
+        />
+      </a>
       <ul>
-        <a href="/">HOME</a>
+        <a href="/contato">CONTATO</a>
         <a href="/sobre">SOBRE NÓS</a>
+        <a class="btn-logar" href="/login">LOGAR</a>
       </ul>
     </nav>
   </body>
